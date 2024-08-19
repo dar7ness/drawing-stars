@@ -1,0 +1,22 @@
+﻿#include <iostream>
+
+using namespace std;
+
+int main() {
+	int n;
+
+	cout << "Enter a hight - ";
+	cin >> n;
+	cout << endl;
+
+    for (int i = 0; i < n; i++) 
+    {
+        cout << '*';
+
+        for (int j = 0; j < i; j++)
+        {
+            cout << "**";
+        }
+        cout << endl;
+    }
+}
